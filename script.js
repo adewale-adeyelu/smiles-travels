@@ -1,7 +1,7 @@
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () => {
-    const header = document.getElementById('navbar')
-    this.scrollY >= 50 ? header.classList.add('navbar-bg')
-                        :header.classList.remove('navbar-bg')
+    const header = document.getElementById('header')
+    this.scrollY >= 50 ? header.classList.add('header-bg')
+                        :header.classList.remove('header-bg')
 }
 window.addEventListener('scroll', scrollHeader);
