@@ -46,31 +46,31 @@
     <a href="">
       <img src="img/Logo2.webp" alt="logo" width="200px">
     </a>
-    <ul class="hidden xl:flex items-center space-x-8">
+    <ul class="hidden xl:flex items-center space-x-10">
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b-2">HOME</a>
+        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">HOME</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b-2">DESTINATIONS</a>
+        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">DESTINATIONS</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b-2">TOURS</a>
+        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">TOURS</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b-2">ABOUT US</a>
+        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">ABOUT US</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b-2">BLOG</a>
+        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">BLOG</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b-2">ENQUIRE</a>
+        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">ENQUIRE</a>
       </li>
     </ul>
-    <button class="bg-btn-color rounded-full md:py-3 md:px-9 px-4 py-2 hover:bg-orange-500">
+    <button class="bg-btn-color rounded-full md:py-3 md:px-9 px-3 py-2 hover:bg-orange-500" id="contact-link">
       <a href="#" class="text-nowrap">Contact us</a>
     </button>
     <button class="px-5 p-2 inline-block xl:hidden" onclick="toggleMenu()">
-      <span class="material-symbols-outlined text-white">
+      <span class="material-symbols-outlined text-white nav-link">
         menu
       </span>
     </button>
@@ -132,7 +132,8 @@
     </div>
   </div>
 
-  <section class="bg-color py-32">
+  <!-- section 1 -->
+  <section class="bg-color py-28">
     <div class="text-center">
       <p class="text-white font-bold pb-10">
         WHAT MAKES US DIFFERENT
@@ -140,46 +141,73 @@
       <h2 class="font text-white lg:text-5xl text-4xl">
         Why Book with Us
       </h2>
-      <div class="grid md:grid-cols-3 py-20 gap-20">
-        <!-- first grid -->
-          <div class="flex flex-col justify-center items-center">
-            <img src="https://smilesglobaltravels.com/wp-content/uploads/2024/05/noun-maps-1724386-2.png" alt="maps" width="50px" class="pb-5">
-            <h2 class="text-white text-lg font-semibold pb-8">
-              Unforgettable <br> experiences
-            </h2>
-            <p class="text-white font-light text-base">
-              Crafting personalized <br> itineraries that cater to your <br> unique preferences.
-            </p>
-          </div>
-          <!-- second grid -->
-          <div class="flex flex-col justify-center items-center">
-            <img src="https://smilesglobaltravels.com/wp-content/uploads/2024/05/noun-world-1715803-1.png" alt="maps" width="50px" class="pb-5">
-            <h2 class="text-white text-lg font-semibold pb-8">
-              Global Travel <br> Agency
-            </h2>
-            <p class="text-white font-light text-base">
-              Benefit from the expertise <br> of travel professionals who <br> have knowledge about <br> destinations
-            </p>
-          </div>
-          <!-- third grid -->
-          <div class="flex flex-col justify-center items-center">
-            <img src=" https://smilesglobaltravels.com/wp-content/uploads/2024/05/noun-price-3606198-1.png" alt="maps" width="50px" class="pb-5">
-            <h2 class="text-white text-lg font-semibold pb-8">
-              Value For Money
-            </h2>
-            <p class="text-white font-light text-base">
-              Access exclusive deals, <br> discounts and perks that <br> maximixing the value of <br> your budget
-            </p>
-          </div>
+    </div>
+    <hr class="xs:block md:hidden mt-6">
+    <div class="grid md:grid-cols-3 md:py-20 py-16 gap-20 md:px-3">
+      <!-- first grid -->
+        <div class="flex flex-col justify-center items-center text-center">
+          <img src="https://smilesglobaltravels.com/wp-content/uploads/2024/05/noun-maps-1724386-2.png" alt="maps" width="50px" class="pb-5">
+          <h2 class="text-white text-lg font-semibold pb-8">
+            Unforgettable <br> experiences
+          </h2>
+          <p class="text-white font-light text-base">
+            Crafting personalized <br> itineraries that cater to your <br> unique preferences.
+          </p>
+        </div>
+        <!-- second grid -->
+        <div class="flex flex-col justify-center items-center text-center">
+          <img src="https://smilesglobaltravels.com/wp-content/uploads/2024/05/noun-world-1715803-1.png" alt="maps" width="50px" class="pb-5">
+          <h2 class="text-white text-lg font-semibold pb-8">
+            Global Travel <br> Agency
+          </h2>
+          <p class="text-white font-light text-base">
+            Benefit from the expertise <br> of travel professionals who <br> have knowledge about <br> destinations
+          </p>
+        </div>
+        <!-- third grid -->
+        <div class="flex flex-col justify-center items-center text-center">
+          <img src=" https://smilesglobaltravels.com/wp-content/uploads/2024/05/noun-price-3606198-1.png" alt="maps" width="50px" class="pb-5">
+          <h2 class="text-white text-lg font-semibold pb-8">
+            Value For Money
+          </h2>
+          <p class="text-white font-light text-base">
+            Access exclusive deals, <br> discounts and perks that <br> maximixing the value of <br> your budget
+          </p>
+        </div>
+    </div>
+    <div class="grid lg:grid-cols-2 lg:px-28 px-5 gap-20">
+      <!-- grid 1 -->
+      <div class="flex justify-center items-center">
+        <img class="max-w-full xl:max-w-md" src="https://smilesglobaltravels.com/wp-content/uploads/2024/06/Picture2.jpg" alt="statue">
+        <!-- <img src="https://smilesglobaltravels.com/wp-content/uploads…and-a-statue-2024-02-09-00-38-53.jpg" alt=""> -->
       </div>
-      <div class="grid grid-cols-2">
-        <img class="img" src="https://smilesglobaltravels.com/wp-content/uploads…and-a-statue-2024-02-09-00-38-53-utc-768x1024.jpg" alt="statue">
+      <!-- grid 2 -->
+      <div class="flex flex-col justify-center items-center">
+        <h2 class="text-white text-base font-semibold pb-8">
+          Embark on a cruise along the legendary Loch Ness, keeping an eye out for the elusive Loch Ness Monster. Visit the iconic Urquhart Castle, perched on the shores of the loch, and uncover its turbulent history and breathtaking views.
+        </h2>
+        <h2 class="text-white text-base font-semibold pb-8">
+          Journey west to the Isle of Skye, renowned for its dramatic landscapes, rugged coastline, and medieval castles. Explore the otherworldly rock formations of the Quiraing and the stunning Fairy Pools, and visit the historic Dunvegan Castle, home to the Clan MacLeod for over 800 years. Enjoy a traditional Scottish dinner featuring local specialties.
+        </h2>
+        <h2 class="text-white text-base font-semibold">
+          Arrive back in Edinburgh in the evening, where you can reflect on your Highland adventure over a farewell dinner.
+        </h2>
       </div>
     </div>
   </section>
 
-
-
+  <!-- section 2 -->
+  <section class="grid md:grid-cols-2 py-28">
+    <div class="flex flex-col justify-center items-center">
+      <h1 class="fonts text-black md:text-5xl text-4xl pb-10">
+        Book Your Tour
+      </h1>
+      <p class="text-color text-lg font-serif">
+        Browse some of our trips and get in <br> contact to start planning your very own <br> adventure.
+      </p>
+    </div>
+    
+  </section>
 
 
 

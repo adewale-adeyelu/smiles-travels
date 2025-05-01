@@ -5,3 +5,35 @@ const scrollHeader = () => {
                         :header.classList.remove('header-bg')
 }
 window.addEventListener('scroll', scrollHeader);
+
+/*=============== CHANGE Text HEADER ===============*/
+const TextHeader = () => {
+    const links = document.querySelectorAll('.nav-link');
+
+    links.forEach(link => {
+      if (window.scrollY >= 50) {
+        link.style.color = '#0f2355';
+      } else {
+        link.style.color = 'white';
+      }
+    });
+};
+window.addEventListener('scroll', TextHeader);
+
+/*=============== CHANGE Contact HEADER ===============*/
+const contactBtn = document.getElementById('contact-link');
+const contactText = contactBtn.querySelector('a');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY >= 50) {
+    contactBtn.classList.remove('bg-btn-color', 'hover:bg-orange-500');
+    contactBtn.classList.add('border', 'border-[#0f2355]');
+    contactText.classList.remove('text-white');
+    contactText.classList.add('text-[#0f2355]');
+  } else {
+    contactBtn.classList.add('bg-btn-color', 'hover:bg-orange-500');
+    contactBtn.classList.remove('border', 'border-[#0f2355]');
+    contactText.classList.add('text-white');
+    contactText.classList.remove('text-[#0f2355]');
+  }
+});
