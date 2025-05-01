@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiles Global Travels</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.11.3/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu">
+</head>
+<body>
+
+  <!-- ======= Modal ======== -->
+  <div id="mobileMenu" class="fixed top-0 left-0 h-full w-64 bg-black shadow-lg transform -translate-x-full transition-transform duration-300 ease-in-out index">
+    <!-- Close Button -->
+    <div class="flex justify-end p-4">
+      <button onclick="toggleMenu()" class="text-2xl text-white">&times;</button>
+    </div>  
+
+    <!-- Menu Items -->
+    <ul class="flex flex-col items-start px-10 space-y-6 text-lg">
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b">HOME</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b">DESTINATIONS</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b">TOURS</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b">ABOUT US</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b">BLOG</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b">ENQUIRE</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ============= Navbar ====================== -->
+  <div class="navbar flex justify-between items-center py-6 md:px-20 px-2">
+    <a href="">
+      <img src="img/Logo2.webp" alt="logo" width="200px">
+    </a>
+    <ul class="hidden xl:flex items-center space-x-8">
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b-2">HOME</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b-2">DESTINATIONS</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b-2">TOURS</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b-2">ABOUT US</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b-2">BLOG</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:border-b-2">ENQUIRE</a>
+      </li>
+    </ul>
+    <button class="bg-btn-color rounded-full py-3 px-9 hover:bg-orange-500">
+      <a href="#" class="text-nowrap">Contact us</a>
+    </button>
+    <button class="px-5 p-2 inline-block xl:hidden" onclick="toggleMenu()">
+      <span class="material-symbols-outlined text-white">
+        menu
+      </span>
+    </button>
+  </div>
+
+  <!-- =================== swiper js bg-img ======================== -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image: url('https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-nui-malama-169330637-29506498-scaled.webp&quot');">
+        <div class="text-center z-50 xl:mt-52 lg:mt-96 mt-64 md:mt-72">
+          <p class="text-orange-500 text-lg pb-8">
+            Your Journey to the World and Beyond!
+          </p>
+          <h1 class="text-white lg:text-6xl md:text-5xl text-26l font"> 
+            Unveil the <i> Wonders of the <br> World</i> with Our <br> Passionate Team
+          </h1>
+        </div>
+      </div>
+      <div class="swiper-slide" style="background-image: url('https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-rdne-5778458-scaled.webp&quot');">
+        <div class="text-center z-50 xl:mt-52 lg:mt-96 mt-64 md:mt-72">
+          <p class="text-orange-500 text-lg pb-8">
+            Your Journey to the World and Beyond!
+          </p>
+          <h1 class="text-white lg:text-6xl md:text-6xl text-3xl font">
+            Unveil the <i> Wonders of the <br> World</i> with Our <br> Passionate Team
+          </h1>
+        </div>
+      </div>
+      <div class="swiper-slide" style="background-image: url('https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-vika-glitter-392079-26077110-scaled.webp&quot');">
+        <div class="text-center z-50 xl:mt-52 lg:mt-96 mt-64 md:mt-72">
+          <p class="text-orange-500 text-lg pb-8">
+            Your Journey to the World and Beyond!
+          </p>
+          <h1 class="text-white lg:text-6xl md:text-6xl text-3xl font">
+            Unveil the <i> Wonders of the <br> World</i> with Our <br> Passionate Team
+          </h1>
+        </div>
+      </div>
+      <div class="swiper-slide" style="background-image: url('https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-saturnus99-11257767-scaled.webp&quot');">
+        <div class="text-center z-50 xl:mt-52 lg:mt-96 mt-64 md:mt-72">
+          <p class="text-orange-500 text-lg pb-8">
+            Your Journey to the World and Beyond!
+          </p>
+          <h1 class="text-white lg:text-6xl md:text-6xl text-3xl font">
+            Unveil the <i> Wonders of the <br> World</i> with Our <br> Passionate Team
+          </h1>
+        </div>
+      </div>
+      <div class="swiper-slide" style="background-image: url('https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-maxchen2k-18090305-scaled.jpg&quot');">
+        <div class="text-center z-50 xl:mt-52 lg:mt-96 mt-64 md:mt-72">
+          <p class="text-orange-500 text-lg pb-8">
+            Your Journey to the World and Beyond!
+          </p>
+          <h1 class="text-white lg:text-6xl md:text-6xl text-3xl font">         
+            Unveil the <i> Wonders of the <br> World</i> with Our <br> Passionate Team
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ========= modal ========== -->
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('overlay');
+        menu.classList.toggle('-translate-x-full');
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+          effect: "fade",
+          loop: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          speed: 1000,
+        });
+    </script>
+
+<!-- &quot;https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-nui-malama-169330637-29506498-scaled.webp&quot -->
+ <!-- &quot;https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-rdne-5778458-scaled.webp&quot -->
+  <!-- &quot;https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-vika-glitter-392079-26077110-scaled.webp&quot -->
+  <!-- &quot;https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-maxchen2k-18090305-scaled.jpg&quot -->
+  <!-- &quot;https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-saturnus99-11257767-scaled.webp&quot -->
+    <!-- https://smilesglobaltravels.com/wp-content/uploads…and-a-statue-2024-02-09-00-38-53-utc-768x1024.jpg -->
+     <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/Hungary-work-contract-correction.jpg -->
+      <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-rdne-8052844-1024x683.jpg -->
+       <!-- https://smilesglobaltravels.com/wp-content/uploads/2024/05/noun-price-3606198-1.png -->
+       <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-kampus-6182086-1024x684.jpg -->
+        <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-cottonbro-6670584-1024x683.jpg -->
+         <!-- https://smilesglobaltravels.com/wp-content/uploads/2024/06/Picture1-1-768x1024.jpg -->
+          <!-- https://smilesglobaltravels.com/wp-content/uploads/2024/06/Picture1-768x1152.jpg -->
+           <!-- https://smilesglobaltravels.com/wp-content/uploads/2024/06/Brazil_01-768x1152.jpg -->
+            <!-- https://smilesglobaltravels.com/wp-content/uploads…ures-of-passo-2023-11-27-05-04-48-utc-768x512.jpg -->
+             <!-- https://smilesglobaltravels.com/wp-content/uploads…edo-mountains-2023-11-27-05-33-47-utc-768x968.jpg -->
+              <!-- https://smilesglobaltravels.com/wp-content/uploads…y-in-new-york-2023-11-27-05-36-08-utc-768x513.jpg -->
+
+</body>
+</html>
