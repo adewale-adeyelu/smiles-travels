@@ -17,7 +17,6 @@ body{
 .swiper-slide {
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-repeat: no-repeat; 
     transition: background-image 1s ease-in-out;
     /* animation: zoomIn 5s ease-in-out forwards; */
@@ -83,4 +82,11 @@ body{
 
 .testimonial-shadow{
     box-shadow: 0 35px 60px rgba(0, 0, 0, 0.10);
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    max-width: 100%;
 }
