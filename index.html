@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="bootstrap-icons-1.11.3/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body>
 
@@ -207,11 +209,42 @@
       </p>
     </div>
     <img class="max-w-full xl:max-w-sm" src="img/hungary_tour_Image.jpg" alt="hungary-work-permit">
-    
   </section>
 
-
-
+  <!-- section 3 -->
+  <section class="pt-3 pb-20" style="background-color: #F5F5F5; padding: 60px 0px;">
+    <div class="owl-carousel owl-theme px-4">
+      <!-- Testimonial 1 -->
+      <div class="bg-white px-2 py-5 md:py-8 md:px-2 rounded-lg Testimonial-shadow text-center max-w-lg mx-auto">
+        <h3 class="text-black md:text-2xl text-xl font-semibold md:pb-5 pb-3">
+          "Best Customer Service"
+        </h3>
+        <p class="text-black font-light px-3 text-lg space pb-7">
+          Planning a surprise anniversary trip for my parents was daunting until I contacted this travel agency. They took care of all the details, crafting a romantic getaway to paris that will never forget. The thoughtful toches, like a private Seine River cruiser and a dinner reservation at a Michelin-starred restaurant, made it extra special.
+        </p>
+      </div>
+    
+      <!-- Testimonial 2 -->
+      <div class="bg-white px-2 py-5 md:py-8 md:px-2 rounded-lg Testimonial-shadow text-center max-w-lg mx-auto">
+        <h3 class="text-black md:text-2xl text-sm font-semibold md:pb-5 pb-3">
+          "A Dream Come True!"
+        </h3>
+        <p class="text-black font-light px-3 text-lg space">
+          Our travel agent truly understood our needs and went above and beyond to create a personalized itinerary that exceeded all expectations. From booking exclusive reservations to organizing private tours, every detail was handled with care and professionalism. Their dedication ensured our trip was not only smooth but also deeply memorable.
+        </p>
+      </div>
+    
+      <!-- Testimonial 3 -->
+      <div class="bg-white  px-2 py-5 md:py-8 md:px-2 rounded-lg Testimonial-shadow text-center max-w-lg mx-auto">
+        <h3 class="text-black md:text-2xl text-xl font-semibold md:pb-5 pb-3">
+          "Tailored Perfection!"
+        </h3>
+        <p class="text-black font-light px-3 text-lg pb-6 space">
+          Choosing this travel agency for our vacation was one of the best decisions we've made. From beginning to end, they handled every detail with care, making our trip completely stress-free and truly unforgettable. Their expertise led us to discover amazing destinations we never would have found on our own.
+        </p>
+      </div>
+    </div>    
+  </section>
 
 
 
@@ -262,7 +295,9 @@
         menu.classList.toggle('-translate-x-full');
       }
     </script>
+    <!-- ============ Swiper JS ================= -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- ================ Change In BG color =================== -->
     <script>
         const swiper = new Swiper(".mySwiper", {
           effect: "fade",
@@ -274,10 +309,37 @@
           speed: 1000,
         });
     </script>
-
-
-
-
+    <!-- =============== Box Shadow =================== -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 32,
+          dots: false,
+          center: true,
+          // autoplay: true,
+          autoplayTimeout: 3000,
+          smartSpeed: 600,
+          touchDrag: true,
+          mouseDrag: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            768: {
+              items: 1
+            },
+            1024: {
+              items: 2
+            }
+          }
+        });
+      });
+    </script>
+    
+   
     <!-- -->
      <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/Hungary-work-contract-correction.jpg -->
       <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-rdne-8052844-1024x683.jpg -->

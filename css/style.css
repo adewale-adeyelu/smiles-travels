@@ -70,9 +70,7 @@ body{
 }
 
 .space{
-    line-height: 20px;
-    place-content: center !important;
-    word-spacing: 20px;
+    line-height: 35px;
 }
 
 .bg-color{
@@ -81,4 +79,8 @@ body{
 
 .text-color{
     color: #7a7a7a;
+}
+
+.testimonial-shadow{
+    box-shadow: 0 35px 60px rgba(0, 0, 0, 0.10);
 }
