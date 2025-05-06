@@ -37,3 +37,20 @@ window.addEventListener('scroll', () => {
     contactText.classList.remove('text-[#0f2355]');
   }
 });
+
+/*======================= SrollBar ============================*/
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+// Show the button when scrolled down 200px
+window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      scrollTopBtn.style.display = "block";
+    } else {
+      scrollTopBtn.style.display = "none";
+    }
+};
+  
+  // When the button is clicked, scroll to the top
+//   scrollTopBtn.onclick = function () {
+//     window.scrollTo({ behavior: 'smooth' });
+// };
