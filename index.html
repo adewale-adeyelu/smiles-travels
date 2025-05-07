@@ -23,53 +23,53 @@
     <!-- Menu Items -->
     <ul class="flex flex-col items-start px-10 space-y-6 text-lg">
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b">HOME</a>
+        <a href="#top" class="text-white font-semibold hover:border-b">HOME</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b">DESTINATIONS</a>
+        <a href="#destination" class="text-white font-semibold hover:border-b">DESTINATIONS</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b">TOURS</a>
+        <a href="#tour" class="text-white font-semibold hover:border-b">TOURS</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b">ABOUT US</a>
+        <a href="#about" class="text-white font-semibold hover:border-b">ABOUT US</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b">BLOG</a>
+        <a href="#blog" class="text-white font-semibold hover:border-b">BLOG</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold hover:border-b">ENQUIRE</a>
+        <a href="#contact" class="text-white font-semibold hover:border-b">ENQUIRE</a>
       </li>
     </ul>
   </div>
 
   <!-- ============= Navbar ====================== -->
   <div class="navbar flex justify-between items-center py-6 md:px-20 px-2" id="header">
-    <a href="">
+    <a href="#top">
       <img src="img/Logo2.webp" alt="logo" width="200px">
     </a>
     <ul class="hidden xl:flex items-center space-x-10">
       <li>
-        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">HOME</a>
+        <a href="#top" class="text-white font-semibold text-sm hover:border-b-2 nav-link">HOME</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">DESTINATIONS</a>
+        <a href="#destination" class="text-white font-semibold text-sm hover:border-b-2 nav-link">DESTINATIONS</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">TOURS</a>
+        <a href="#tour" class="text-white font-semibold text-sm hover:border-b-2 nav-link">TOURS</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">ABOUT US</a>
+        <a href="#about" class="text-white font-semibold text-sm hover:border-b-2 nav-link">ABOUT US</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">BLOG</a>
+        <a href="#blog" class="text-white font-semibold text-sm hover:border-b-2 nav-link">BLOG</a>
       </li>
       <li>
-        <a href="#" class="text-white font-semibold text-sm hover:border-b-2 nav-link">ENQUIRE</a>
+        <a href="#contact" class="text-white font-semibold text-sm hover:border-b-2 nav-link">ENQUIRE</a>
       </li>
     </ul>
     <button class="bg-btn-color rounded-full md:py-3 md:px-9 px-3 py-2 hover:bg-orange-500" id="contact-link">
-      <a href="#" class="text-nowrap">Contact us</a>
+      <a href="#blog" class="text-nowrap">Contact us</a>
     </button>
     <button class="px-5 p-2 inline-block xl:hidden" onclick="toggleMenu()">
       <span class="material-symbols-outlined text-white nav-link">
@@ -177,7 +177,7 @@
           </p>
         </div>
     </div>
-    <div class="grid lg:grid-cols-2 lg:px-28 px-5 gap-20">
+    <div class="grid lg:grid-cols-2 lg:px-28 px-5 gap-20" id="tour">
       <!-- grid 1 -->
       <div class="flex justify-center items-center">
         <img class="max-w-full xl:max-w-md" src="https://smilesglobaltravels.com/wp-content/uploads/2024/06/Picture2.jpg" alt="statue">
@@ -212,7 +212,7 @@
   </section>
 
   <!-- section 3 -->
-  <section class="pb-32" style="background-color: #F5F5F5; padding: 60px 0px;">
+  <section class="pb-32" style="background-color: #F5F5F5; padding: 60px 0px;" id="about">
     <div class="block lg:hidden text-center">
       <h1 class="pb-7 fonts text-black md:text-5xl text-4xl">
         Reviews
@@ -299,7 +299,7 @@
   </section>
 
   <!-- section 5 -->
-  <section class="py-5">
+  <section class="py-5" id="destination">
     <div class="text-center pt-5">
       <p class="text-base md:text-2xl font-semibold font pb-8">
         Discover the World with Us
@@ -358,7 +358,7 @@
   </section>
 
   <!-- section 7 -->
-  <section class="py-10">
+  <section class="py-10" id="contact">
     <h1 class="font font-light text-2xl md:text-6xl color-text text-center pb-5">
       Contact a Travel Expert
     </h1>
@@ -390,7 +390,7 @@
   </section>
 
   <!-- footer -->
-  <footer class="bg-color py-20 text-white lg:px-32 px-5">
+  <footer class="bg-color py-20 text-white lg:px-32 px-5" id="blog">
     <div class="grid md:grid-cols-3 gap-10 text-center md:text-start">
       <div>
         <h5 class="color-text-2 text-semibold text-lg pb-6">
