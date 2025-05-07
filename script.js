@@ -43,7 +43,7 @@ const scrollTopBtn = document.getElementById("scrollTopBtn");
 
 // Show the button when scrolled down 200px
 window.onscroll = function () {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
       scrollTopBtn.style.display = "block";
     } else {
       scrollTopBtn.style.display = "none";
