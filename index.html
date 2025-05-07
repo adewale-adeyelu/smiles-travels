@@ -358,14 +358,11 @@
   </section>
 
   <!-- section 7 -->
-  <section class="pt-10">
-    <h1 class="font font-light text-2xl md:text-6xl color-text text-center">
+  <section class="py-10">
+    <h1 class="font font-light text-2xl md:text-6xl color-text text-center pb-5">
       Contact a Travel Expert
     </h1>
-    <!-- <div class="flex justify-end items-center lg:pe-40 ps-36">
-      <img src="img/noun-arrow-2989501-6.png" alt="arrow" class="size-16 md:size-24">
-    </div> -->
-    <div class="mt-5 max-w-full xl:px-80 md:px-20 px-5 pb-5 mx-auto rounded-xl">
+    <div class="mt-5 max-w-full xl:px-80 md:px-20 px-5 mx-auto rounded-xl">
       <form action="" class="pb-5">
         <!-- input 1 -->
         <label for="Name" class="text-gray-700 font-semibold">Your Name<span>*</span></label>
@@ -378,13 +375,13 @@
         <input type="text" class="w-full px-4 py-2 border border-gray-600 rounded-full mb-8">
         <!-- input 4 -->
         <label for="Name" class="text-gray-700 font-semibold">State Date<span>*</span></label>
-        <input type="text" class="w-full px-4 py-2 border border-gray-600 rounded-full mb-8">
+        <input type="date" class="w-full px-4 py-2 border border-gray-600 rounded-full mb-8">
          <!-- input 5 -->
          <label for="Name" class="text-gray-700 font-semibold">End Date<span>*</span></label>
-         <input type="text" class="w-full px-4 py-2 border border-gray-600 rounded-full mb-8">
+         <input type="date" class="w-full px-4 py-2 border border-gray-600 rounded-full mb-8">
           <!-- input 6 -->
           <label for="Name" class="text-gray-700 font-semibold">Let us know about your trip plans! (optional)</label>
-          <input type="text" class="w-full px-4 py-8 border border-gray-600 rounded-full">
+          <input type="text" class="w-full px-4 py-8 border border-gray-600 rounded-2xl">
       </form>
       <button class="bg-black text-white rounded-full md:py-3 md:px-9 px-6 py-2">
         <a href="" class="font-semibold">Submit</a>
@@ -392,15 +389,88 @@
     </div>
   </section>
 
-
-
-
-
-
-
-
-
-
+  <!-- footer -->
+  <footer class="bg-color py-20 text-white lg:px-32 px-5">
+    <div class="grid md:grid-cols-3 gap-10 text-center md:text-start">
+      <div>
+        <h5 class="color-text-2 text-semibold text-lg pb-6">
+          Destinations
+        </h5>
+        <p class="text-2xl font-light">
+          <a href="">Asia</a>
+        </p>
+        <p class="text-2xl font-light">
+          <a href="">Africa</a>
+        </p>
+        <p class="text-2xl font-light">
+          <a href="">Australia</a>
+        </p>
+        <p class="text-2xl font-light">
+          <a href="">Europe</a>
+        </p>
+        <p class="text-2xl font-light">
+          <a href="">North America</a>
+        </p>
+        <p class="text-2xl font-light">
+          <a href="">Latin America</a>
+        </p>
+      </div>
+      <div class="flex flex-col justify-start md:justify-around">
+        <div>
+          <h5 class="color-text-2 text-semibold text-lg pb-6">
+            Whatsapp/Call Us
+          </h5>
+          <p class="text-xl font-light pb-3">
+            +2347015919477
+          </p>
+          <p class="text-xl font-light">
+            +2347070051427
+          </p>
+        </div>
+        <div class="pt-8">
+          <h5 class="color-text-2 text-semibold text-lg pb-6">
+            Email Us
+          </h5>
+          <p class="text-xl font-light pb-3">
+            adewaleadeyelu17@gmail.com
+          </p>
+        </div>
+        <div class="pt-8">
+          <h5 class="color-text-2 text-semibold text-lg pb-6">
+            OFFICE
+          </h5>
+          <p class="text-xl font-light pb-3">
+            17 Ralph Shodeinde Street, Central Business District, Abuja.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col justify-start md:justify-around">
+        <img src="img/Logo2.webp" alt="logo" style="max-width: 70%;">
+        <div class="pt-5 xl:ps-20 md:ps-18 md:pt-0">
+          <a href=""><span class="bi bi-facebook text-white h1 pe-4 text-2xl"></span></a>
+          <a href=""><span class="bi bi-twitter-x text-white h1 pe-4 text-2xl"></span></a>
+          <a href=""><span class="bi bi-instagram text-white h1 pe-4 text-2xl"></span></a>
+          <a href=""><span class="bi bi-whatsapp text-white h1 text-2xl"></span></a>
+        </div>
+      </div>
+      <div class="pt-10">
+        <p>
+          &copy;2023 Smiles Global Travels & Recruitment Agency. <br> All Rights Reserved.
+        </p>
+      </div>
+      <div class="xl:flex justify-around items-center pt-10">
+        <p>
+          <a href="" class="font-semibold" >Terms</a>
+        </p>
+        <p>
+          <a href="" class="font-semibold">Cookie Policy</a>
+        </p>
+        <p>
+          <a href="" class="font-semibold">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  </footer>
 
   <!-- scroll-top -->
   <div class="scrollTop" id="scrollTopBtn">
@@ -411,85 +481,59 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="script.js"></script>
-    <!-- ========= modal ========== -->
-    <script>
-      function toggleMenu() {
-        const menu = document.getElementById('mobileMenu');
-        const overlay = document.getElementById('overlay');
-        menu.classList.toggle('-translate-x-full');
-      }
-    </script>
-    <!-- ============ Swiper JS ================= -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- ================ Change In BG color =================== -->
-    <script>
-        const swiper = new Swiper(".mySwiper", {
-          effect: "fade",
-          loop: true,
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-          },
-          speed: 1000,
-        });
-    </script>
-    <!-- =============== Box Shadow =================== -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-          loop: true,
-          margin: 32,
-          dots: false,
-          center: true,
-          autoplay: true,
-          autoplayTimeout: 3000,
-          smartSpeed: 600,
-          touchDrag: true,
-          mouseDrag: true,
-          responsive: {
-            0: {
-              items: 1
-            },
-            768: {
-              items: 1
-            },
-            1024: {
-              items: 2
-            }
-          }
-        });
+  <!-- =========== Javascript ===============  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+  <!-- ========= modal ========== -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      const overlay = document.getElementById('overlay');
+      menu.classList.toggle('-translate-x-full');
+    }
+  </script>
+  <!-- ============ Swiper JS ================= -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- ================ Change In BG color =================== -->
+  <script>
+      const swiper = new Swiper(".mySwiper", {
+        effect: "fade",
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        speed: 1000,
       });
-    </script>
-    
-   
-    <!-- -->
-     <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/Hungary-work-contract-correction.jpg -->
-      <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-rdne-8052844-1024x683.jpg -->
-       <!-- https://smilesglobaltravels.com/wp-content/uploads/2024/05/noun-price-3606198-1.png -->
-       <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-kampus-6182086-1024x684.jpg -->
-        <!-- https://smilesglobaltravels.com/wp-content/uploads/2025/02/pexels-cottonbro-6670584-1024x683.jpg -->
-         <!-- https://smilesglobaltravels.com/wp-content/uploads/2024/06/Picture1-1-768x1024.jpg -->
-          <!-- https://smilesglobaltravels.com/wp-content/uploads/2024/06/Picture1-768x1152.jpg -->
-           <!-- https://smilesglobaltravels.com/wp-content/uploads/2024/06/Brazil_01-768x1152.jpg -->
-            <!-- https://smilesglobaltravels.com/wp-content/uploads…ures-of-passo-2023-11-27-05-04-48-utc-768x512.jpg -->
-             <!-- https://smilesglobaltravels.com/wp-content/uploads…edo-mountains-2023-11-27-05-33-47-utc-768x968.jpg -->
-              <!-- https://smilesglobaltravels.com/wp-content/uploads…y-in-new-york-2023-11-27-05-36-08-utc-768x513.jpg -->
-
+  </script>
+  <!-- =============== Box Shadow =================== -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 32,
+        dots: false,
+        center: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        smartSpeed: 600,
+        touchDrag: true,
+        mouseDrag: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 1
+          },
+          1024: {
+            items: 2
+          }
+        }
+      });
+    });
+  </script>
 </body>
 </html>
